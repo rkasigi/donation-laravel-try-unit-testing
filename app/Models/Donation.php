@@ -8,4 +8,8 @@ class Donation extends Model
 {
     protected $table = 'donations';
     protected $primaryKey = 'donation_id';
+
+    protected $fillable = ['debit', 'credit', 'balance'];
+
+
 }
