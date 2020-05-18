@@ -13,6 +13,12 @@ class MyMathHelperTest extends TestCase
     }
 
     /**
+     * this method to prove that naming convention can be ignored
+     * as long as there is @test annotation, but this method is not recomended
+     *
+     * please see PHPUnit section annotations
+     * https://phpunit.readthedocs.io/en/9.0/annotations.html
+     *
      * @test
      */
     public function mathAddNegative()
